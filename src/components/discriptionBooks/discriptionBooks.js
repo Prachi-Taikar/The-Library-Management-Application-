@@ -24,7 +24,7 @@ function DiscriptionBooks() {
             <div className="description-list">
                 { bookList.length> 0 ? bookList.map((book) => 
                     (
-                        <DiscriptionBooksList key ={book.id} id={book.id} title={book.book_title} image={ book.cover_url } descrip={ book.book_short_description } authorName={ book.authors[0].author_name } authorURL= 'https://google.com' /> 
+                        <DiscriptionBooksList key ={book.id} id={book.id} title={book.book_title} image={ book.cover_url } descrip={ book.book_short_description } authorName={ book.authors[0]?.author_name } authorURL= 'https://google.com' /> 
                     )):
                 <h2>Data loading.........</h2>
                 }

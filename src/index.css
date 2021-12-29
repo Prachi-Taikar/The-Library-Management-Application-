@@ -73,7 +73,7 @@
     padding: 0 30px;
     color: rgb(250, 246, 0);
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 34px;
     letter-spacing: 0.1rem;
@@ -82,9 +82,19 @@
     white-space: nowrap;
     background-color: transparent;
     border-radius: 4px;
-    border: 1px solid rgb(250, 194, 12);
+    border: 2px solid rgb(250, 167, 12);
     cursor: pointer;
     box-sizing: border-box;
+  }
+
+  .btn-login{
+    color: rgb(37, 0, 250);
+    border: 2px solid rgba(12, 234, 250, 0.897);
+  }
+  .btn-signup{
+    
+    
+    background-color: #ffffff;
   }
   
   .button:hover,
@@ -109,9 +119,9 @@
   input[type='submit'].button-primary,
   input[type='reset'].button-primary,
   input[type='button'].button-primary {
-    color: #fff;
-    background-color: #33c3f0;
-    border-color: #33c3f0;
+    color: rgb(37, 0, 250);
+    background-color: #ffffff;
+    border: 2px solid rgba(12, 234, 250, 0.897);
   }
   
   .button.button-danger,
@@ -119,7 +129,7 @@
   input[type='submit'].button-danger,
   input[type='reset'].button-danger,
   input[type='button'].button-danger {
-    color: #fff;
+    color:  #ffffff;
     background-color: #dc3545;
     border-color: #dc3545;
   }  

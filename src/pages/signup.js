@@ -58,7 +58,7 @@ export default function Signup(props) {
 
         <label htmlFor="signup-pwd">Password:</label>
         <input id="signup-pwd" type="password" value={password} onChange={(e) => { setError(''); setPassword(e.target.value)}} />
-        <button className="button button-primary" type="submit">Singup</button>
+        <button className="button button-primary btn-signup" type="submit">Singup</button>
 
       </form>
     </div>

@@ -61,7 +61,7 @@ export default function Login(props) {
         <input id ="login-pwd" type ="password" value= {email} onChange= {(e) => { setError('') ;
         setPassword(e.target.value)}} />
 
-        <button className = "button button--primary" type="submit"> Login </button>
+        <button className = "button button--primary btn-login " type="submit"> Login </button>
 
       </form>
     </div>
