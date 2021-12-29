@@ -58,7 +58,7 @@ export default function Login(props) {
         setEmail(e.target.value) }} />
 
         <label htmlFor = "login-pwd"> Password: </label>
-        <input id ="login-pwd" type ="password" value= {email} onChange= {(e) => { setError('') ;
+        <input id ="login-pwd" type ="password" value= {password} onChange= {(e) => { setError('') ;
         setPassword(e.target.value)}} />
 
         <button className = "button button--primary btn-login " type="submit"> Login </button>
